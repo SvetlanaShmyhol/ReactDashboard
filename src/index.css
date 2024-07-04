@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
+
+html,
+body,
+#root,
+.app,
+.content {
+  height: 100%;
+  width: 100%;
+  font-family: "Source Sans 3", sans-serif;
+}
+
+.app {
+  display: flex;
+  position: relative;
+}
+
+
+/* StatBox ProgressCircle colors */
+
+.css-1yg19ie {
+  background: radial-gradient(#1F2A40 55%, transparent 56%), conic-gradient(transparent 0deg 270deg, #1f2a409e 270deg 360deg), #4cceac !important;
+}
+
+.css-1ff8hsa {
+  background: radial-gradient(#f2f0f0 55%, transparent 56%), conic-gradient(transparent 0deg 270deg, #d8d8d8 270deg 360deg), #4cceac !important;
+}
+
+
+.css-1jwxrmb {
+  background: radial-gradient(#1F2A40 55%, transparent 56%), conic-gradient(transparent 0deg 180deg, #1f2a409e 180deg 360deg), #6870fa !important;
+}
+
+.css-1baxw0k {
+  background: radial-gradient(#f2f0f0 55%, transparent 56%), conic-gradient(transparent 0deg 180deg, #d8d8d8 180deg 360deg), #6870fa !important;
+}
+
+.css-edc01f {
+  background: radial-gradient(#1F2A40 55%, transparent 56%), conic-gradient(transparent 0deg 108deg, #1f2a40b8 108deg 360deg), #e98d00 !important;
+}
+
+.css-112rum5 {
+  background: radial-gradient(#f2f0f0 55%, transparent 56%), conic-gradient(transparent 0deg 108deg, #d8d8d8 108deg 360deg), #e98d00 !important;
+}
+
+
+.css-1xmvaip {
+  background: radial-gradient(#1F2A40 55%, transparent 56%), conic-gradient(transparent 0deg 288deg, #1f2a40b8 288deg 360deg), #e2726e !important;
+}
+
+.css-1j8m09w {
+  background: radial-gradient(#f2f0f0 55%, transparent 56%), conic-gradient(transparent 0deg 288deg, #d8d8d8 288deg 360deg), #e2726e !important;
+}
+
+/* ::-webkit-scrollbar {
+  width: 10px;
+} */
+
+/* Track */
+/* ::-webkit-scrollbar-track {
+  background: #0c101b;
+  opacity: 0.4;
+} */
+
+/* Handle */
+/* ::-webkit-scrollbar-thumb {
+  background: #1F2A40;
+  opacity: 0.4;
+} */
+
+/* Handle on hover */
+/* ::-webkit-scrollbar-track:hover {
+  background: #555;
+  opacity: 0.4;
+} */
