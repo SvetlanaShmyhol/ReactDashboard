@@ -29,17 +29,17 @@ function App() {
           <main className="content">
             <Topbar setIsSidebar={setIsSidebar} />
             <Routes>
-              <Route path="/dashboard" element={<Dashboard />} />
-              <Route path="/team" element={<Team />} />
-              <Route path="/contacts" element={<Contacts />} />
-              <Route path="/invoices" element={<Invoices />} />
-              <Route path="/form" element={<Form />} />
-              <Route path="/bar" element={<Bar />} />
-              <Route path="/pie" element={<Pie />} />
-              <Route path="/line" element={<Line />} />
-              <Route path="/faq" element={<FAQ />} />
-              <Route path="/calendar" element={<Calendar />} />
-              <Route path="/geography" element={<Geography />} />
+              <Route path="/ReactDashboard/dashboard" element={<Dashboard />} />
+              <Route path="/ReactDashboard/team" element={<Team />} />
+              <Route path="/ReactDashboard/contacts" element={<Contacts />} />
+              <Route path="/ReactDashboard/invoices" element={<Invoices />} />
+              <Route path="/ReactDashboard/form" element={<Form />} />
+              <Route path="/ReactDashboard/bar" element={<Bar />} />
+              <Route path="/ReactDashboard/pie" element={<Pie />} />
+              <Route path="/ReactDashboard/line" element={<Line />} />
+              <Route path="/ReactDashboard/faq" element={<FAQ />} />
+              <Route path="/ReactDashboard/calendar" element={<Calendar />} />
+              <Route path="/ReactDashboard/geography" element={<Geography />} />
             </Routes>
           </main>
         </div>
