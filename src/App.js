@@ -29,6 +29,7 @@ function App() {
           <main className="content">
             <Topbar setIsSidebar={setIsSidebar} />
             <Routes>
+              <Route path="/ReactDashboard" element={<Dashboard />} />
               <Route path="/ReactDashboard/dashboard" element={<Dashboard />} />
               <Route path="/ReactDashboard/team" element={<Team />} />
               <Route path="/ReactDashboard/contacts" element={<Contacts />} />
