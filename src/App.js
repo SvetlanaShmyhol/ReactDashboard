@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { Routes, Route } from 'react-router-dom';
+import { HashRouter, Route, Routes } from 'react-router-dom';
 import { ColorModeContext, useMode } from './theme';
 import { CssBaseline, ThemeProvider } from '@mui/material';
 import Topbar from './scenes/global/Topbar';
@@ -29,7 +29,7 @@ function App() {
           <main className="content">
             <Topbar setIsSidebar={setIsSidebar} />
             <Routes>
-              <Route path="/ReactDashboard" element={<Dashboard />} />
+              <Route path="/" element={<Dashboard />} />
               <Route path="/ReactDashboard/dashboard" element={<Dashboard />} />
               <Route path="/ReactDashboard/team" element={<Team />} />
               <Route path="/ReactDashboard/contacts" element={<Contacts />} />
